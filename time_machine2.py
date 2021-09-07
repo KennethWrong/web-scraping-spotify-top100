@@ -12,7 +12,7 @@ year_iso = year.split('-')[0]
 CLIENT_ID = input('What is your spotify client id?: ')
 CLIENT_SECRET = input('What is your client-secret?: ')
 
-# Fetching the html of billboards
+# Fetching the html of billboards100
 url = f'https://www.billboard.com/charts/hot-100/{year}'
 response = requests.get(url=url)
 
